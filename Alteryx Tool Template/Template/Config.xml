@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDll="Python" EngineDllEntryPoint="TemplateEngine.py" SDKVersion="10.1" />
+  <GuiSettings Html="TemplateGUI.html" Icon="Template/TemplateIcon.png" SDKVersion="10.1">
+    <InputConnections>
+      <Connection Name="Input" AllowMultiple="False" Optional="False" Type="Connection" Label="I"/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label="O"/>
+	  <Connection Name="ErrorOutput" AllowMultiple="False" Optional="False" Type="Connection" Label="E"/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <Name>Alteryx Tool Template</Name>
+      <Description>Describe your tool.</Description>
+      <CategoryName>Tool Category Name</CategoryName>
+      <SearchTags>Search Tags (Optional; You can delete this line if unnecessary)</SearchTags>
+      <ToolVersion>1.0</ToolVersion>
+      <Author>John "Lorem Ipsum" Doe</Author>
+      <Company>Company Name Here</Company>
+      <Copyright>Year Created</Copyright>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
